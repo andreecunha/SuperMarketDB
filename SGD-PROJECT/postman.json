@@ -1,0 +1,292 @@
+{
+	"info": {
+		"_postman_id": "bb3d8913-a6a5-4a69-b6cf-58cddc9389b5",
+		"name": "Trabalho",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET /proj/report/promotions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8080/proj/report/promotions",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"proj",
+						"report",
+						"promotions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /proj/report/cashiers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8080/proj/report/cashiers",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"proj",
+						"report",
+						"cashiers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /proj/report/stores",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8080/proj/report/stores",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"proj",
+						"report",
+						"stores"
+					]
+				}
+			},
+			"response": []
+		},
+		
+		{
+			"name": "PUT /proj/product/2",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"New Name\",\r\n \r\n    \"description\": \"New Description\",\r\n\r\n    \"price\": 50,\r\n \r\n    \"type\": \"New Type\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/proj/product/2",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"proj",
+						"product",
+						"2"
+					]
+				}
+			}
+		},
+		{
+			"name": "GET /proj/report/store_last_month/2",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "127.0.0.1:5432/proj/report/store_last_month/2",
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "port": "8080",
+                    "path": [
+						"proj",
+                        "report",
+                        "store_last_month",
+                        "2"
+                    ]
+                }
+            },
+            "response": []
+        },
+
+		{
+			"name": "POST /proj/clients",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 404,\r\n    \"name\": \"New name\",\r\n    \"address\": \"New address\",\r\n    \"phone\": 910000000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/proj/clients",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"proj",
+						"clients",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /proj/product/2",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "127.0.0.1:8080/proj/product/2",
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "port": "8080",
+                    "path": [
+						"proj",
+                        "product",
+                        "2"
+                    ]
+                }
+            },
+            "response": []
+        },
+		{
+			"name": "POST /proj/purchase",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"client_id\": -1,\r\n    \"cashier_id\": 222454330,\r\n    \"store_id\": 2,\r\n    \"price\": 3,\r\n    \"data\": \"2021-12-17\",\r\n    \"products\": [2,4,5]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/proj/purchase",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"proj",
+						"purchase",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /proj/report/month_product/2021-10",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8080/proj/report/stores",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"proj",
+						"report",
+						"month_product",
+						"2021-10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /proj/purchases/2021-10-8",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "127.0.0.1:8080/proj/purchases/2021-10-8",
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "port": "8080",
+                    "path": [
+						"proj",
+                        "purchases",
+                        "2021-10-8"
+                    ]
+                }
+            },
+            "response": []
+        },
+		{
+			"name": "GET /proj/product/description",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "127.0.0.1:8080/proj/product/description",
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "port": "8080",
+                    "path": [
+						"proj",
+                        "product",
+                        "description"
+                    ]
+                }
+            },
+            "response": []
+        }
+	]
+}
