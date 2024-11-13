@@ -1,6 +1,6 @@
 # Sistema de Gestão de Dados (SGD) - Cadeia de Supermercados
 
-Bem-vindo ao repositório do **Sistema de Gestão de Dados (SGD)**, um projeto desenvolvido para armazenar e gerir dados de uma cadeia de supermercados. Este repositório contém o código-fonte, scripts e documentação necessária para instalação e utilização do sistema.
+Bem-vindo ao repositório de **Sistema de Gestão de Dados (SGD)**, um projeto desenvolvido para armazenar e gerir dados de uma cadeia de supermercados. Este repositório contém o código, scripts e documentação necessária para instalação e utilização do sistema.
 
 ---
 
