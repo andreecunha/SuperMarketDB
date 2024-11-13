@@ -8,10 +8,7 @@ This project presents the design and implementation of a Data Storage and Manage
 1. [Project Overview](#project-overview)
 2. [Key Features](#key-features)
 3. [Installation Guide](#installation-guide)
-4. [Usage Guide](#usage-guide)
-5. [Development Plan](#development-plan)
-6. [Security and Integrity](#security-and-integrity)
-7. [Conclusion](#conclusion)
+
 
 ---
 
