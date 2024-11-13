@@ -40,4 +40,4 @@ Siga os passos abaixo para instalar o sistema:
 
 1. Faça o **download** ou clone este repositório.
    ```bash
-   git clone https://github.com/seu-usuario/sistema-gestao-dados.git
+   git clone https://github.com/andreecunha/SuperMarketDB.git
